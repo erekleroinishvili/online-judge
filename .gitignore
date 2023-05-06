@@ -1,0 +1,24 @@
+# BEGIN: Try ignore MAC binaries - files without extension
+# Step 1: Ignore everything - files and dirs
+*
+# Step 2: Unignore all files with extensions
+!*.*
+# Step 3: Unignore all dirs
+!*/
+# E N D: Try ignore MAC binaries - files without extension
+
+
+# Ignore all .exe files
+**/*.exe
+
+# Ignore all .o files
+**/*.o
+
+# Ignore all .zip files
+**/*.zip
+
+# Ignore all .rar files
+**/*.rar
+
+# Ignore all .bin files
+**/*.bin
